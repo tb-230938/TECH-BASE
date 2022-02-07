@@ -211,8 +211,8 @@
                 echo $row['id'].'：';
                 echo $row['name'].'さん  ...  ';
                 echo $row['comment'].'  ';
-                echo '<font color="gray">('. $row['time'].')<br></font>';
-                echo '<font color="gray"><small>設定したパスワード：'. $row['pass1'].'</small></font><br>';
+                echo  '<fontcolor = "gray">（'。$ row [ 'time' ]。'）<br> </ font>' ;
+//                エコー '<fontcolor = "gray"> <small>設定パスワード：'。$ row [ 'pass1' ]。'</ small> </ font> <br>' ;
             }
 //            echo "#6<hr>";
         ?>
